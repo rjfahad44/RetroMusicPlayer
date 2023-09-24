@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/action_home">
+
+    <fragment
+        android:id="@+id/action_album"
+        android:name="com.ft.ltd.fragments.albums.AlbumsFragment"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/action_artist"
+        android:name="com.ft.ltd.fragments.artists.ArtistsFragment"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/action_song"
+        android:name="com.ft.ltd.fragments.songs.SongsFragment"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/action_genre"
+        android:name="com.ft.ltd.fragments.genres.GenresFragment"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/action_playlist"
+        android:name="com.ft.ltd.fragments.playlists.PlaylistsFragment"
+        tools:layout="@layout/fragment_main_recycler" />
+
+    <fragment
+        android:id="@+id/action_folder"
+        android:name="com.ft.ltd.fragments.folder.FoldersFragment"
+        tools:layout="@layout/fragment_folder" />
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.ft.ltd.fragments.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home" />
+
+
+</navigation>
